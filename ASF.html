@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="title">Homenaje a Ayrton Senna</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+    }
+    header {
+  background: linear-gradient(45deg, #ff0000, #ff6347); 
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+    #title {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main#main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff8dc; /* color cremita suave */
+      border: 3px solid yellow;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    /* Estilos para #img-div */
+    #img-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* centrado horizontal del contenido */
+      margin-bottom: 20px;
+    }
+    /* Estilo para la imagen */
+    #image {
+      display: block; /* cumplimiento */
+      max-width: 100%; /* cumplimiento */
+      height: auto; /* cumplimiento */
+      border: 3px solid black;
+      border-radius: 10px;
+    }
+    /* Pie de foto */
+    #img-caption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #555;
+    }
+    /* Información del tributo */
+    #tribute-info {
+      margin-top: 30px;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    /* Lista de fechas */
+    #dates-list {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+    #dates-list li {
+      margin-bottom: 8px;
+    }
+    /* Enlace tributo */
+    #tribute-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: yellow;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    #tribute-link:hover {
+      background-color: orange;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Elemento header con título -->
+  <header>
+    <h1 id="title">Homenaje a Ayrton Senna</h1>
+  </header>
+
+  <!-- main con id "main" -->
+  <main id="main">
+    <!-- div #img-div con imagen y caption -->
+    <div id="img-div">
+      <!-- imagen con id "image" -->
+      <img
+        id="image"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm71OVcj9n5_rYE9WbfeSkM36vbh5RHc-DdA&s"
+        alt="Ayrton Senna"
+      />
+      <!-- caption con id "img-caption" -->
+      <div id="img-caption">Ayrton Senna en su época dorada</div>
+    </div>
+
+    <!-- contenido del homenaje con id "tribute-info" -->
+    <div id="tribute-info">
+      <p>
+        Ayrton Senna fue un legendario piloto de Fórmula 1, conocido por su talento, pasión y dedicación en la pista. Su legado sigue vivo en los corazones de millones de fans y en la historia del automovilismo.
+      </p>
+      <p>
+        Algunas fechas importantes en su vida y carrera:
+      </p>
+      <!-- Lista de fechas históricas -->
+      <ul id="dates-list">
+        <li><strong>1960:</strong> Nace Ayrton Senna en São Paulo, Brasil.</li>
+        <li><strong>1984:</strong> Debuta en la Fórmula 1 con Toleman.</li>
+        <li><strong>1985:</strong> Firma con Lotus y obtiene su primera victoria en Portugal.</li>
+        <li><strong>1988:</strong> Se une a McLaren y gana su primer campeonato mundial.</li>
+        <li><strong>1989:</strong> Gana su segundo título de Fórmula 1.</li>
+        <li><strong>1990:</strong> Obtiene su tercer campeonato mundial con McLaren.</li>
+        <li><strong>1 de mayo de 1994:</strong> Fallece en el Gran Premio de San Marino en Imola, Italia, en un trágico accidente.</li>
+        <li><strong>2004:</strong> La Federación Internacional de Automovilismo (FIA) establece el "Ayrton Senna Award" en su honor.</li>
+      </ul>
+      <p>
+        Este homenaje busca celebrar su vida y carrera, recordando sus logros y su impacto en el deporte.
+      </p>
+    </div>
+
+    <!-- enlace con id "tribute-link" -->
+    <a
+      id="tribute-link"
+      href="https://es.wikipedia.org/wiki/Ayrton_Senna"
+      target="_blank"
+    >
+      Más información sobre Ayrton Senna
+    </a>
+  </main>
+
+  <!-- pie de página -->
+  <footer>
+    <p>&copy; 2023 Homenaje a Ayrton Senna</p>
+  </footer>
+</body>
+</html>
