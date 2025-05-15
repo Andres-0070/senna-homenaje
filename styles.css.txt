@@ -1,0 +1,161 @@
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+    }
+    header {
+  background: linear-gradient(45deg, #ff0000, #ff6347); 
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+    #title {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main#main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff8dc; /* color cremita suave */
+      border: 3px solid yellow;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    /* Estilos para #img-div */
+    #img-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* centrado horizontal del contenido */
+      margin-bottom: 20px;
+    }
+    /* Estilo para la imagen */
+    #image {
+      display: block; /* cumplimiento */
+      max-width: 100%; /* cumplimiento */
+      height: auto; /* cumplimiento */
+      border: 3px solid black;
+      border-radius: 10px;
+    }
+    /* Pie de foto */
+    #img-caption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #555;
+    }
+    /* Información del tributo */
+    #tribute-info {
+      margin-top: 30px;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    /* Lista de fechas */
+    #dates-list {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+    #dates-list li {
+      margin-bottom: 8px;
+    }
+    /* Enlace tributo */
+    #tribute-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: yellow;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    #tribute-link:hover {
+      background-color: orange;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+    }
+    header {
+  background: linear-gradient(45deg, #ff0000, #ff6347); 
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+    #title {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main#main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff8dc; /* color cremita suave */
+      border: 3px solid yellow;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    /* Estilos para #img-div */
+    #img-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* centrado horizontal del contenido */
+      margin-bottom: 20px;
+    }
+    /* Estilo para la imagen */
+    #image {
+      display: block; /* cumplimiento */
+      max-width: 100%; /* cumplimiento */
+      height: auto; /* cumplimiento */
+      border: 3px solid black;
+      border-radius: 10px;
+    }
+    /* Pie de foto */
+    #img-caption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #555;
+    }
+    /* Información del tributo */
+    #tribute-info {
+      margin-top: 30px;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
+    /* Lista de fechas */
+    #dates-list {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+    #dates-list li {
+      margin-bottom: 8px;
+    }
+    /* Enlace tributo */
+    #tribute-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: yellow;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    #tribute-link:hover {
+      background-color: orange;
+    }
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
